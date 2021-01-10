@@ -11,10 +11,8 @@
     <artifactId>my-practice-aop</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 </dependency>
-```
     * 2.添加扫描包路径
 ```java
 @SpringBootApplication
 @ComponentScan(value = {"com.ae86.mypracticeaop", "com.ae86.mypractice01"})
-```
     * 3.使用注解 @MyLog()
